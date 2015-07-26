@@ -11,21 +11,10 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 Variable name    | Description
 -----------------|------------
-        subject  | ID of the 30 volunteers  who performed the activity. Its range is from 1 to 30.
+subject          | ID of the 30 volunteers  who performed the activity. Its range is from 1 to 30.
+
 ###Activity
-Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
-
-Variable name    | Description
------------------|------------
-        activity |  Activity type that the 30 volunteers  who performed the activity. 
-
-|  Its has 6 levels:
-|   1. WALKING
-|   2. WALKING_UPSTAIRS
-|   3. WALKING_DOWNSTAIRS
-|   4. SITTING
-|   5. STANDING
-|   6. LAYING
+Each person performed six activities (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
 ###Features
 
@@ -218,8 +207,7 @@ str(Data2)
 
 ##Dataset summary
 -----------------
-        
-        ```r
+```r{} 
 summary(Data2)
 ```
 
